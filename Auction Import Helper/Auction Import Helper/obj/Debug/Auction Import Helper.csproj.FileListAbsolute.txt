@@ -1,0 +1,37 @@
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Debug\Auction Import Helper.exe.config
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Debug\Auction Import Helper.exe
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Debug\Auction Import Helper.pdb
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.csprojAssemblyReference.cache
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\MainWindow.g.cs
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\App.g.cs
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper_MarkupCompile.cache
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper_MarkupCompile.lref
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\MainWindow.baml
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.g.resources
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction_Import_Helper.Properties.Resources.resources
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.csproj.GenerateResource.cache
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.exe
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.pdb
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Debug\CsvHelper.dll
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.csproj.CopyComplete
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Window1.g.cs
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Debug\Window1.baml
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Debug\Auction Import Helper.exe.config
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Debug\Auction Import Helper.exe
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Debug\Auction Import Helper.pdb
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Debug\CsvHelper.dll
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.csprojAssemblyReference.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\MainWindow.g.cs
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Window1.g.cs
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\App.g.cs
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper_MarkupCompile.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper_MarkupCompile.lref
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\MainWindow.baml
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Window1.baml
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.g.resources
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction_Import_Helper.Properties.Resources.resources
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.csproj.GenerateResource.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.csproj.CoreCompileInputs.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.csproj.CopyComplete
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.exe
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Debug\Auction Import Helper.pdb

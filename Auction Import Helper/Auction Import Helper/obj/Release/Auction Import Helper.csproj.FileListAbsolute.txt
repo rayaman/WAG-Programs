@@ -1,0 +1,37 @@
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Release\Auction Import Helper.exe.config
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Release\Auction Import Helper.exe
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Release\Auction Import Helper.pdb
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\bin\Release\CsvHelper.dll
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.csprojAssemblyReference.cache
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\MainWindow.g.cs
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Window1.g.cs
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\App.g.cs
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper_MarkupCompile.cache
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper_MarkupCompile.lref
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\MainWindow.baml
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Window1.baml
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.g.resources
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction_Import_Helper.Properties.Resources.resources
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.csproj.GenerateResource.cache
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.csproj.CopyComplete
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.exe
+C:\Users\ben\source\repos\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.pdb
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Release\Auction Import Helper.exe.config
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Release\Auction Import Helper.exe
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Release\Auction Import Helper.pdb
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\bin\Release\CsvHelper.dll
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.csprojAssemblyReference.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\MainWindow.g.cs
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Window1.g.cs
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\App.g.cs
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper_MarkupCompile.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper_MarkupCompile.lref
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\MainWindow.baml
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Window1.baml
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.g.resources
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction_Import_Helper.Properties.Resources.resources
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.csproj.GenerateResource.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.csproj.CoreCompileInputs.cache
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.csproj.CopyComplete
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.exe
+C:\nodejs\WAG-Programs\Auction Import Helper\Auction Import Helper\obj\Release\Auction Import Helper.pdb

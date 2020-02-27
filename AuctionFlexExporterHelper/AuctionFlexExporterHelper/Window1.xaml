@@ -1,0 +1,49 @@
+﻿<Window x:Name="Auction_Flex_Exporter" x:Class="AuctionFlexExporterHelper.Window1"
+        ResizeMode="NoResize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AuctionFlexExporterHelper"
+        mc:Ignorable="d"
+        Title="AuctionFlex Auction Exporter" Height="450" Width="1209">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="377*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listbox" HorizontalAlignment="Left" Height="336" Margin="10,41,0,0" VerticalAlignment="Top" Width="307" SelectionChanged="ListBox_SelectionChanged" Grid.ColumnSpan="2"/>
+        <Label Content="Select an auction below!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="191" Grid.ColumnSpan="2"/>
+        <Label Content="Selected Auction:" HorizontalAlignment="Left" Margin="284,10,0,0" VerticalAlignment="Top" Width="101" Grid.Column="1"/>
+        <TextBox x:Name="selectedAuction" HorizontalAlignment="Left" Height="22" Margin="390,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" Grid.Column="1"/>
+        <ListBox x:Name="auctionlots" Grid.Column="1" HorizontalAlignment="Left" Height="315" Margin="285,62,0,0" VerticalAlignment="Top" Width="459" SelectionChanged="auctionlots_SelectionChanged"/>
+        <Label Content="Auction Lots" Grid.Column="1" HorizontalAlignment="Left" Margin="285,36,0,0" VerticalAlignment="Top" Width="84"/>
+        <Button Content="Prepare Auction For Uploading" HorizontalAlignment="Left" Margin="10,384,0,0" VerticalAlignment="Top" Width="172" Click="Button_Click" Name ="export" Grid.ColumnSpan="2"/>
+        <Label x:Name="lotcount" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="669,36,0,0" VerticalAlignment="Top" Width="75"/>
+        <ProgressBar x:Name="progress" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="285,384,0,0" VerticalAlignment="Top" Width="459"/>
+        <CheckBox Content="Open Directory When Done?" Grid.Column="1" HorizontalAlignment="Left" Margin="369,42,0,0" VerticalAlignment="Top" Name="check" IsChecked="True"/>
+        <TextBox x:Name="desc" Grid.Column="1" HorizontalAlignment="Left" Height="161" Margin="749,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" IsEnabled="False"/>
+        <Image x:Name="pic" Grid.Column="1" HorizontalAlignment="Left" Height="184" Margin="945,193,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="pic_left" Content="&lt;--" Grid.Column="1" HorizontalAlignment="Left" Margin="945,384,0,0" VerticalAlignment="Top" Width="75" Click="pic_left_Click"/>
+        <Button x:Name="pic_right" Content="--&gt;" Grid.Column="1" HorizontalAlignment="Left" Margin="1060,384,0,0" VerticalAlignment="Top" Width="75" Click="pic_right_Click"/>
+        <Label Content="Description" Grid.Column="1" HorizontalAlignment="Left" Margin="749,151,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label Content="Consignor" Grid.Column="1" HorizontalAlignment="Left" Margin="749,62,0,0" VerticalAlignment="Top" Width="67"/>
+        <TextBox x:Name="consignor" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="820,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" IsEnabled="False"/>
+        <ComboBox x:Name="otheritems" Grid.Column="1" HorizontalAlignment="Left" Margin="749,124,0,0" VerticalAlignment="Top" Width="337"/>
+        <Label Content="Other Items By Consignor" Grid.Column="1" HorizontalAlignment="Left" Margin="749,93,0,0" VerticalAlignment="Top" Width="148"/>
+        <Button x:Name="select" Content="Select" Grid.Column="1" HorizontalAlignment="Left" Margin="1089,125,0,0" VerticalAlignment="Top" Width="46" Click="select_Click" RenderTransformOrigin="-0.065,2.8"/>
+        <TextBox x:Name="invbox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="879,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61"/>
+        <Button x:Name="gotoinv" Content="Go To INV" Grid.Column="1" HorizontalAlignment="Left" Margin="799,384,0,0" VerticalAlignment="Top" Width="75" Click="gotoinv_Click"/>
+        <Label Content="Inventory Center" Grid.Column="1" HorizontalAlignment="Left" Margin="749,10,0,0" VerticalAlignment="Top" Width="386"/>
+        <TextBox x:Name="info" Grid.Column="1" HorizontalAlignment="Left" Height="35" Margin="912,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" IsEnabled="False"/>
+        <Button Content="Check if Sold" Grid.Column="1" HorizontalAlignment="Left" Margin="832,154,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox x:Name="invdetail" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="754,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" IsEnabled="False"/>
+        <TextBox x:Name="reserve" Grid.Column="1" HorizontalAlignment="Left" Height="16" Margin="749,360,0,0" TextWrapping="Wrap" Text="Reserve:" VerticalAlignment="Top" Width="85" IsEnabled="False" FontSize="10"/>
+        <TextBox x:Name="estmin" Grid.Column="1" HorizontalAlignment="Left" Height="16" Margin="839,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" IsEnabled="False" FontSize="10"/>
+        <TextBox x:Name="estmax" Grid.Column="1" HorizontalAlignment="Left" Height="16" Margin="892,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" IsEnabled="False" FontSize="10"/>
+        <Label Content="-" Grid.Column="1" HorizontalAlignment="Left" Margin="881,354,0,0" VerticalAlignment="Top" Height="23" Width="19"/>
+        <Button x:Name="Refresh" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Margin="749,384,0,0" VerticalAlignment="Top" Width="45" Click="Button_Click_2"/>
+        <Button x:Name="upload" Content="Upload Sale Results" Grid.Column="1" HorizontalAlignment="Left" Margin="136,384,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Auction_Import_Helper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Auction_Import_Helper"
+        mc:Ignorable="d"
+        Title="Auction Import Helper" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="IBR" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="683" IsEnabled="False"/>
+        <Label Content="Invaluable Bidder Report" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="238"/>
+        <Label Content="Invaluable EOA Report" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,69,0,0" Width="238"/>
+        <TextBox x:Name="IEOAR" HorizontalAlignment="Left" Height="23" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="683" IsEnabled="False"/>
+        <Label Content="Live Auctioneers Full Report" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="238"/>
+        <TextBox x:Name="LAFR" HorizontalAlignment="Left" Height="23" Margin="10,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="683" IsEnabled="False"/>
+        <Button x:Name="Browse_IBR" Content="Browse" HorizontalAlignment="Left" Margin="698,42,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="Browse_IEOAR" Content="Browse" HorizontalAlignment="Left" Margin="698,101,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button x:Name="Browse_LAFR" Content="Browse" HorizontalAlignment="Left" Margin="698,160,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Process Files" HorizontalAlignment="Left" Margin="10,379,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <Button Content="Help" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
+        <CheckBox x:Name="Disable_Live" Content="Disable LiveAuctioneers" HorizontalAlignment="Left" Margin="90,190,0,0" VerticalAlignment="Top" Checked="Disable_Live_Checked" Unchecked="Disable_Live_UnChecked"/>
+        <CheckBox x:Name="Disable_Inv" Content="Disable Invaluable" HorizontalAlignment="Left" Margin="240,190,0,0" VerticalAlignment="Top" Checked="Disable_Inv_Checked" Unchecked="Disable_Inv_UnChecked"/>
+
+    </Grid>
+</Window>
