@@ -35,4 +35,3 @@ C:\nodejs\WAG-Programs\AuctionFlexExporterHelper\AuctionFlexExporterHelper\obj\R
 C:\nodejs\WAG-Programs\AuctionFlexExporterHelper\AuctionFlexExporterHelper\obj\Release\AuctionFlexExporterHelper.csproj.CopyComplete
 C:\nodejs\WAG-Programs\AuctionFlexExporterHelper\AuctionFlexExporterHelper\obj\Release\AuctionFlexExporterHelper.exe
 C:\nodejs\WAG-Programs\AuctionFlexExporterHelper\AuctionFlexExporterHelper\obj\Release\AuctionFlexExporterHelper.pdb
-C:\nodejs\WAG-Programs\AuctionFlexExporterHelper\AuctionFlexExporterHelper\obj\Release\AuctionFlexExporterHelper.csprojAssemblyReference.cache

@@ -45,12 +45,12 @@ namespace AuctionFlexExporterHelper
             for(int i = list.Count-1;i>=0;i--)
                 listbox.Items.Add(list[i]);
         }
-        public void UpdateProgress(int count)
+        public void UpdateProgress()
         {
             Dispatcher.Invoke(() =>
             {
                 progress.Value = ((double)count / (double)items.Count) * 100;
-                if (count == items.Count-2)
+                if (count == items.Count)
                 {
                     progress.Value = 0;
                     new Thread(() =>
@@ -63,6 +63,7 @@ namespace AuctionFlexExporterHelper
                     export.IsEnabled = true;
                     Refresh.IsEnabled = true;
                     listbox.IsEnabled = true;
+                    upload.IsEnabled = true;
                 }
             });
         }
@@ -178,35 +179,11 @@ namespace AuctionFlexExporterHelper
                     }
                 }
                 c++;
-                Thread.Sleep(100);
+                Thread.Sleep(200);
             }
-            UpdateProgress(++count);
+            Interlocked.Increment(ref count);
+            UpdateProgress();
         }
-        /*
-         if (item == null)
-                return;
-            Item inv = item;
-            StringBuilder str = new StringBuilder();
-            var invoice = auction.GetInvoiceItemFromItemID(inv.id);
-            if (inv.onhand == 0 && auction.itemIsInvoiced(inv.id))
-                str.Append("Sold ");
-            else if (inv.onhand != 0 && auction.itemIsInvoiced(inv.id))
-                str.Append("Sold ");
-            else
-                str.Append("Unsold ");
-            if (invoice != null)
-            {
-                var i = auction.GetInvoiceFromInvoiceNum(invoice.invoicenum);
-                if (!auction.InvoiceIsPaid(invoice.invoicenum))
-                    str.Append("(Unpaid): ");
-                else
-                    str.Append("(Paid): ");
-                str.Append("$" + invoice.baseprice);
-                var b = auction.GetBuyerByID(i.buyer_id);
-                str.Append(" Buyer: "+b.first + " " +b.last);
-            }
-            info.Text = str.ToString();
-         */
         private class StringBuffer
         {
             private List<string> str = new List<string>();
@@ -351,6 +328,7 @@ namespace AuctionFlexExporterHelper
             export.IsEnabled = false;
             Refresh.IsEnabled = false;
             listbox.IsEnabled = false;
+            upload.IsEnabled = false;
             string path = Directory.GetCurrentDirectory() + "\\Auctions\\" + SelectedAuction.name.Trim();
             if (Directory.Exists(path))
             {
@@ -374,7 +352,7 @@ namespace AuctionFlexExporterHelper
             {
                 foreach (Item i in items)
                 {
-                    Thread.Sleep(200);
+                    Thread.Sleep(300);
                     Thread myNewThread = new Thread(() => CopyImages(i, path));
                     myNewThread.Start();
                     InvRecords.Add(new Invaluable(i.lotnum.ToString(), i.lead, i.desc + "\n\n" + disclaimer, i.min.ToString(), i.max.ToString()));
